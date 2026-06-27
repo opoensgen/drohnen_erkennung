@@ -9,8 +9,11 @@ anaconda_projects/
 # OS
 .DS_Store
 
-# big dataset (zu gross fuer GitHub)
-images/
+# nicht zum Projekt gehoerende Uebungs-Notebooks (lokal behalten, nicht pushen)
+7_DataCleaning_exercise_airbnb.ipynb
+8_DataVisualization_exercise_airbnb.ipynb
+8_DataVisualization_slides.ipynb
+Untitled1.ipynb
 
 # runs: alles ignorieren AUSSER den im Notebook genutzten runs
 # train-2 = im Notebook benutztes Modell (best.pt), train-5 = gezeigte Plots
