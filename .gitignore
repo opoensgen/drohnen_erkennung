@@ -9,14 +9,26 @@ anaconda_projects/
 # OS
 .DS_Store
 
-# big dataset / training output (zu gross fuer GitHub)
+# big dataset (zu gross fuer GitHub)
 images/
-runs/
+
+# runs: alles ignorieren AUSSER den im Notebook genutzten runs
+# train-2 = im Notebook benutztes Modell (best.pt), train-5 = gezeigte Plots
+runs/**
+!runs/
+!runs/detect/
+!runs/detect/train-2/
+!runs/detect/train-2/**
+!runs/detect/train-5/
+!runs/detect/train-5/**
+# last.pt nicht noetig, best.pt reicht
+runs/detect/train-2/weights/last.pt
+runs/detect/train-5/weights/last.pt
+# .DS_Store auch in den genutzten runs raushalten
+runs/**/.DS_Store
 
 # YOLO label-cache (auto-generiert)
 *.cache
 
-# trained model weights (nur pretrained yolo11n.pt wird gepusht)
+# compiled engine exports
 *.engine
-best.pt
-last.pt
