@@ -1,7 +1,7 @@
 # Drohnen-Erkennung mit YOLO11
 
 Objekterkennung von Drohnen/UAVs in Bildern mit einem auf YOLO11n feinabgestimmten Modell.
-Abschlussprojekt im Modul *Data Science with Python* (BHT).
+Abschlussprojekt im Modul Data Science mit Python (BHT).
 
 ## Erkannte Klassen (5)
 
