@@ -1,0 +1,22 @@
+# venv / python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+anaconda_projects/
+
+# OS
+.DS_Store
+
+# big dataset / training output (zu gross fuer GitHub)
+images/
+runs/
+
+# YOLO label-cache (auto-generiert)
+*.cache
+
+# trained model weights (nur pretrained yolo11n.pt wird gepusht)
+*.engine
+best.pt
+last.pt

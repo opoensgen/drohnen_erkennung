@@ -1,0 +1,11 @@
+names:
+- shahed_136
+- shahed_238
+- mq9_reaper
+- dji_mavic
+- mohajer_6
+nc: 5
+path: /Users/orlandopoensgen/Documents/BHT/DataScience_Python/Projekt/Final Project
+test: images/test
+train: images/train
+val: images/val
