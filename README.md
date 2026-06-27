@@ -61,7 +61,7 @@ Konfiguration des genutzten Laufs (`runs/detect/train-2/args.yaml`):
 |-----------|-------------|
 | model     | yolo11n.pt  |
 | data      | dataset.yaml|
-| epochs    | 30          |
+| epochs    | 20          |
 | batch     | 4           |
 | imgsz     | 640         |
 | device    | cpu         |
