@@ -75,9 +75,3 @@ model.train(data="dataset.yaml", epochs=30, batch=4, imgsz=640, device="cpu")
 
 Ergebnisse/Metriken: `runs/detect/train-2/results.csv` & `results.png`,
 Plots (Confusion-Matrix, PR/F1) in `runs/detect/train-5/`.
-
-## Nicht im Repo
-
-`.venv/`, weitere `runs/` (predict-Outputs, andere Trainings) und
-auto-generierte `*.cache`-Dateien sind via `.gitignore` ausgeschlossen —
-sie werden bei Bedarf neu erzeugt.
