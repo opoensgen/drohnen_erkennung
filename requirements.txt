@@ -1,0 +1,12 @@
+# Drohnen-Erkennung mit YOLO11 - Python-Abhaengigkeiten
+# Empfohlen: conda-Env (z.B. yolo_env) oder venv mit Python 3.10-3.12
+ultralytics>=8.3.0
+torch
+torchvision
+opencv-python
+numpy
+pandas
+matplotlib
+seaborn
+pillow
+pyyaml

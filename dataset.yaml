@@ -5,7 +5,7 @@ names:
 - dji_mavic
 - mohajer_6
 nc: 5
-path: /Users/orlandopoensgen/Documents/BHT/DataScience_Python/Projekt/Final Project
+path: .
 test: images/test
 train: images/train
 val: images/val
