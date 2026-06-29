@@ -70,7 +70,7 @@ Konfiguration des genutzten Laufs (`runs/detect/train-2/args.yaml`):
 from ultralytics import YOLO
 
 model = YOLO("yolo11n.pt")
-model.train(data="dataset.yaml", epochs=30, batch=4, imgsz=640, device="cpu")
+model.train(data="dataset.yaml", epochs=20, batch=4, imgsz=640, device="cpu")
 ```
 
 Ergebnisse/Metriken: `runs/detect/train-2/results.csv` & `results.png`,
